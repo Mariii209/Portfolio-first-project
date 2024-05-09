@@ -1,6 +1,7 @@
 .intro {
   background-color: #f9f7fe;
-  padding: 329px 375px 443px 372px;
+  padding: 10vw 20px;
+  text-align: center;
 }
 
 .intro h2 {
@@ -32,4 +33,64 @@
   border-radius: 4px;
   padding: 18px 30px;
   font-family: "Poppins", sans-serif;
+}
+
+.projects h4 {
+  font-size: 18px;
+  text-align: center;
+  color: #272142;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 127px;
+  margin-bottom: 82px;
+}
+
+.projects h2 {
+  font-size: 64px;
+  font-family: "Playfair Display";
+  font-weight: bolder;
+  margin-top: 95px;
+}
+
+.projects p {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #272142;
+  font-weight: normal;
+  margin-bottom: 50px;
+  margin-top: 55px;
+}
+
+.projects a {
+  border-radius: 4px;
+  border: 1px solid #6c63ff;
+  padding: 18px 30px;
+  text-decoration: none;
+  color: #6c63ff;
+}
+
+.info-project {
+  margin-bottom: 70px;
+}
+
+@media (max-width: 990px) {
+  .intro h1 {
+    font-size: 45px;
+  }
+
+  .intro h2 {
+    font-size: 25px;
+  }
+
+  .intro p {
+    font-size: 20px;
+  }
+
+  .info-project {
+    text-align: center;
+  }
+  .projects h2 {
+    margin: 0;
+  }
 }

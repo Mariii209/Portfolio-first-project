@@ -167,6 +167,63 @@
   color: #6c63ff !important;
 }
 
+footer {
+  margin-bottom: 69px;
+}
+
+footer h3 {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: "Playfair Display";
+}
+
+footer p {
+  font-size: 18px;
+  color: rgba(39, 33, 66, 0.7);
+}
+
+footer .footer-button-parents {
+  margin-top: 40px;
+}
+
+footer .footer-button {
+  background-color: #6c63ff;
+  color: white;
+  padding: 18px 30px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+footer .footer-work-inquiry {
+  background-color: #f9f7fe;
+  padding: 36px 53px;
+  border-radius: 20px;
+}
+
+footer .email-logos {
+  margin-top: 81px;
+}
+
+footer .email {
+  margin-bottom: 45px;
+}
+
+footer .email a {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+footer .logos a {
+  margin-left: 30px;
+  font-size: 18px;
+  color: #6c63ff;
+  padding: 10px 12px 9px;
+  background-color: #f9f7fe;
+  border-radius: 30px;
+}
+
 @media (max-width: 990px) {
   .intro h1 {
     font-size: 45px;
@@ -209,5 +266,27 @@
     font-size: 41px;
     text-align: center;
     margin: 50px 0 50px;
+  }
+
+  footer h3 {
+    font-size: 36px;
+  }
+
+  footer p {
+    font-size: 16px;
+  }
+
+  footer .footer-work-inquiry {
+    padding: 20px 30px;
+  }
+
+  footer .footer-button-parents {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  footer .footer-button {
+    padding: 30px 24px;
   }
 }

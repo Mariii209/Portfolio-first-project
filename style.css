@@ -284,6 +284,7 @@ footer .logos a {
     margin-top: 20px;
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
   }
 
   footer .footer-button {
